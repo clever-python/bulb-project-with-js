@@ -1,0 +1,27 @@
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+    height: 800px;
+    width: 100%;
+    background-color: grey;
+    
+}
+
+h2 {
+    color: white;
+    height: 10vh;
+    line-height: 60px;
+}
+
+#khatka {
+    color : white;
+    background: brown;
+}
+

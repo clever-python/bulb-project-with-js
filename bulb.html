@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb glowing project</title>
+    <link rel="stylesheet" href="bulb.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Bulb glowing on clicking project</h2>
+        <br>
+        <img src="https://media.geeksforgeeks.org/wp-content/uploads/OFFbulb.jpg" alt="bulb-image"
+          >
+        
+        <button id="khatka" onclick="turnOff()" >ON/OFF</button>
+        
+    </div>
+    <script>
+        let imag = document.getElementsByTagName("img");
+        function turnOff() {
+            let imag = document.getElementsByTagName("img");
+
+            if(imag[0].src.match("ONbulb")) {
+                imag[0].src= 'https://media.geeksforgeeks.org/wp-content/uploads/OFFbulb.jpg';
+            }
+            else {
+                imag[0].src="https://media.geeksforgeeks.org/wp-content/uploads/ONbulb.jpg";
+            }
+        }
+        
+    </script>
+</body>
+</html>
